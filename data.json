@@ -43,7 +43,7 @@
     },
     {
       "category": "Cloud & DevOps",
-      "items": ["AWS (Lambda, EventBridge, S3, SQS)", "Azure (Storage, Active Directory)", "Docker · CloudFormation", "Jenkins · GitHub Actions"]
+      "items": ["AWS (EC2, Step Functions, Lambda, ALB ...)", "Azure (Storage, Active Directory)", "Docker · CloudFormation", "Jenkins · GitHub Actions"]
     },
     {
       "category": "Data & Frontend",
