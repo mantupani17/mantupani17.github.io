@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<meta name="description" content="Software engineering portfolio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="mark" id="nav-mark">··<span class="mark-dot">/</span>01</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO / TITLE BLOCK ============ -->
+<section class="hero" id="top">
+  <div class="sheet-frame">
+    <div class="reg-mark tl" aria-hidden="true"></div>
+    <div class="reg-mark tr" aria-hidden="true"></div>
+    <div class="reg-mark bl" aria-hidden="true"></div>
+    <div class="reg-mark br" aria-hidden="true"></div>
+
+    <p class="eyebrow mono" id="hero-eyebrow">Loading…</p>
+
+    <h1 class="hero-title" id="hero-headline"></h1>
+
+    <p class="hero-desc" id="hero-desc"></p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View projects</a>
+      <a href="/resume.pdf" id="resume-link" class="btn btn-ghost">Download résumé ↓</a>
+    </div>
+
+    <!-- Title block, engineering-drawing style, populated from data.json -->
+    <div class="title-block mono" id="title-block"></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="sheet-header">
+    <span class="sheet-tag mono">SHEET 01 OF 05</span>
+    <h2 class="sheet-title">About</h2>
+    <span class="sheet-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-text" id="about-text"></div>
+    <div class="about-facts mono" id="about-facts"></div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <div class="sheet-header">
+    <span class="sheet-tag mono">SHEET 02 OF 05</span>
+    <h2 class="sheet-title">Skills &amp; tools</h2>
+    <span class="sheet-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="skills-grid" id="skills-grid"></div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="sheet-header">
+    <span class="sheet-tag mono">SHEET 03 OF 05</span>
+    <h2 class="sheet-title">Selected projects</h2>
+    <span class="sheet-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="projects-grid" id="projects-grid"></div>
+  <div class="projects-toggle" id="projects-toggle"></div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="sheet-header">
+    <span class="sheet-tag mono">SHEET 04 OF 05</span>
+    <h2 class="sheet-title">Experience</h2>
+    <span class="sheet-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact-section" id="contact">
+  <div class="sheet-header">
+    <span class="sheet-tag mono">SHEET 05 OF 05</span>
+    <h2 class="sheet-title">Get in touch</h2>
+    <span class="sheet-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="contact-block">
+    <p class="contact-lead" id="contact-lead"></p>
+    <div class="contact-links mono" id="contact-links"></div>
+  </div>
+</section>
+
+<footer class="footer mono">
+  <span id="footer-name">© 2026</span>
+  <span>Built with plain HTML, CSS &amp; JS — hosted on GitHub Pages</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

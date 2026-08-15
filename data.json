@@ -1,0 +1,165 @@
+{
+  "profile": {
+    "name": "Mantu Pani",
+    "initials": "MP",
+    "title": "Staff Engineer, AI & Backend Architect",
+    "location": "Bengaluru, India",
+    "email": "mantupani17@gmail.com",
+    "phone": "+91 7873160006",
+    "stackShort": "Node.js · NestJS · AWS",
+    "discipline": "Backend / AI Systems",
+    "rev": "2026.08",
+    "status": "OPEN TO OPPORTUNITIES",
+    "resumeUrl": "/resume.pdf"
+  },
+
+  "hero": {
+    "headline": "Mantu Pani",
+    "subheadline": "architects backend systems and the AI that runs on top of them.",
+    "description": "Staff Engineer with 8+ years building production backend systems and, more recently, GenAI-powered workflow automation. From Node.js microservices on AWS to LangChain/LangGraph agents that turn plain-English prompts into working workflows — I like taking a system from \"someone has to do this by hand\" to \"the platform just does it.\""
+  },
+
+  "about": {
+    "paragraphs": [
+      "I'm a Staff Engineer with over eight years of experience across the full backend stack — Node.js, NestJS, Express, AdonisJS — and cloud infrastructure on both AWS and Azure. Most of my career has been spent designing microservices architectures, writing the CI/CD pipelines that ship them, and debugging the production issues that come after.",
+      "Over the last year and a half that's expanded into GenAI: building agentic workflow automation with LangChain and LangGraph, standing up MCP servers, and designing systems where a plain-English prompt can generate a working workflow instead of someone building it by hand in a UI. I currently work as a Staff Engineer at Altimetrik India on projects for client BHN (Blackhawk Networks), after four years at Happiest Minds and two years at LitmusWorld before that.",
+      "I hold an MCA from Roland Institute of Technology and a BCA from Disha College of Management and Technology, both in Odisha. Along the way I've picked up a PDES Superstar Award (FY2025), several quarterly excellence awards, and a habit of doing a quick proof-of-concept before committing to a feature."
+    ],
+    "facts": [
+      { "num": "8+", "label": "years in software & backend development" },
+      { "num": "4", "label": "companies, from startups to enterprise clients" },
+      { "num": "10+", "label": "production microservices designed & shipped" }
+    ]
+  },
+
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Node.js / JavaScript", "TypeScript", "Python", "PHP"]
+    },
+    {
+      "category": "Backend & AI",
+      "items": ["NestJS · Express.js · AdonisJS", "REST APIs & GraphQL", "LangChain · LangGraph", "MCP servers · agentic workflows"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["AWS (Lambda, EventBridge, S3, SQS)", "Azure (Storage, Active Directory)", "Docker · CloudFormation", "Jenkins · GitHub Actions"]
+    },
+    {
+      "category": "Data & Frontend",
+      "items": ["MongoDB · PostgreSQL · MySQL", "Redis · Elasticsearch · DynamoDB", "React.js · Next.js", "Angular"]
+    }
+  ],
+
+  "projects": [
+    {
+      "code": "PROJECT—A",
+      "year": "2025",
+      "title": "Notification Manager GenAI",
+      "description": "R&D-driven system that generates campaign workflows from a plain-English prompt instead of manual UI configuration, using LangChain.js and Ollama — with human review still in the loop while the prompting gets refined.",
+      "tags": ["NestJS", "LangChain.js", "Ollama"],
+      "status": "Client project — BHN, via Altimetrik",
+      "score": 96
+    },
+    {
+      "code": "PROJECT—B",
+      "year": "2025",
+      "title": "Notification Manager",
+      "description": "Notification orchestration platform supporting scheduled, interval-based, and immediate campaigns. Designed the high-level architecture and built the backend on AWS Lambda, Step Functions, and EventBridge.",
+      "tags": ["NestJS", "AWS Lambda", "Step Functions"],
+      "status": "Client project — BHN, via Altimetrik",
+      "score": 91
+    },
+    {
+      "code": "PROJECT—C",
+      "year": "2022",
+      "title": "Preference Manager",
+      "description": "Full-stack service letting users configure preferences per campaign type, with JSON Schema driving both input validation and UI configuration. Built and maintained both backend and frontend.",
+      "tags": ["NestJS", "React.js", "MongoDB"],
+      "status": "Client project — BHN, via Altimetrik",
+      "score": 72
+    },
+    {
+      "code": "PROJECT—D",
+      "year": "2022",
+      "title": "Career Edge — Job Posting Platform",
+      "description": "Job board built from scratch on a microservices architecture: posting, search, apply flows, and employer dashboards, across separate Core and Employer services on AWS.",
+      "tags": ["NestJS", "React.js", "AWS"],
+      "status": "Client project — Happiest Minds",
+      "score": 80
+    },
+    {
+      "code": "PROJECT—E",
+      "year": "2019",
+      "title": "Mintbook eLibrary Platform",
+      "description": "Subscription-based e-library letting organizations buy access to ebooks and videos for their members. Built the eReader integration in JavaScript and wrote the backend APIs in PHP for smooth, fast content delivery.",
+      "tags": ["PHP", "Drupal", "MySQL"],
+      "status": "Client project — Mintbook",
+      "score": 45
+    },
+    {
+      "code": "PROJECT—F",
+      "year": "2019",
+      "title": "TSCL Smart City Kiosk",
+      "description": "Kiosk portal for Tumakuru Smart City Lounge connecting multiple payment sources for utility bill payment and mobile recharge, with a Node.js backend and front-end integration for the on-site touchscreen experience.",
+      "tags": ["Node.js", "Express.js", "MongoDB"],
+      "status": "Client project — Mintbook",
+      "score": 42
+    },
+    {
+      "code": "PROJECT—G",
+      "year": "2022",
+      "title": "File Upload Service",
+      "description": "Node.js microservice handling the full upload pipeline: antivirus scanning with ClamAV, encryption, and moving files from a temporary Azure location to their final destination, with MongoDB change streams driving real-time status updates.",
+      "tags": ["Node.js", "Express.js", "ClamAV", "Azure"],
+      "status": "Client project — Happiest Minds (Workboard)",
+      "score": 76
+    },
+    {
+      "code": "PROJECT—H",
+      "year": "2022",
+      "title": "Wobo Server — Legacy Integration",
+      "description": "Integrated the new file-upload microservice into an existing legacy PHP/React application, bridging newer Node.js/NestJS services with the older codebase without disrupting existing functionality.",
+      "tags": ["PHP", "React.js", "NestJS"],
+      "status": "Client project — Happiest Minds (Workboard)",
+      "score": 55
+    }
+  ],
+
+  "experience": [
+    {
+      "dateRange": "FEB 2025 — PRESENT",
+      "role": "Staff Engineer",
+      "company": "Altimetrik India (client: BHN)",
+      "description": "Architect enterprise-grade microservices on Node.js, NestJS, AWS Lambda and EventBridge. Design AI-powered workflow automation using LLMs and LangChain, including a LangGraph-based recommendation engine. Build reusable AI skills and agent-compatible tools, and run CI/CD via Jenkins, GitHub Actions and CloudFormation."
+    },
+    {
+      "dateRange": "DEC 2021 — FEB 2025",
+      "role": "Module Lead",
+      "company": "Happiest Minds Technologies",
+      "description": "Led backend engineering and microservices development on NestJS, MongoDB and AWS. Built a secure file-upload microservice with ClamAV virus scanning and encryption, migrated legacy systems into scalable microservices, and mentored developers through architecture and code reviews."
+    },
+    {
+      "dateRange": "FEB 2020 — DEC 2021",
+      "role": "Software Engineer, MEAN Stack",
+      "company": "LitmusWorld",
+      "description": "Built a customer-experience analytics platform on Angular and Elasticsearch, including dynamic survey systems with real-time dashboards. Debugged production issues via AWS CloudWatch and wrote custom JS for client-specific question rendering."
+    },
+    {
+      "dateRange": "JAN 2018 — FEB 2020",
+      "role": "Software Developer",
+      "company": "Mintbook",
+      "description": "Built an LMS platform from scratch — course upload, assignment, and progress tracking — deployed for clients including Canara Bank and the Karnataka Public Library Department. Also developed backend services for an IoT-based digital education device."
+    }
+  ],
+
+  "contact": {
+    "leadText": "Open to Staff / Senior Engineer roles across backend and AI systems, and to interesting consulting problems. The fastest way to reach me is email or phone.",
+    "links": [
+      { "label": "mantupani17@gmail.com", "href": "mailto:mantupani17@gmail.com" },
+      { "label": "+91 7873160006", "href": "tel:+917873160006" },
+      { "label": "linkedin.com/in/mantu-pani ↗", "href": "https://www.linkedin.com/in/mantu-pani-691715106/" },
+      { "label": "github.com/mantupani17 ↗", "href": "https://github.com/mantupani17" }
+    ]
+  }
+}
